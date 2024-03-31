@@ -33,4 +33,9 @@ return new class extends Migration
     {
         Schema::dropIfExists('users');
     }
+
 };
+
+// bcrypt
+// md5()
+// password_hash()

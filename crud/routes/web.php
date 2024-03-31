@@ -18,3 +18,7 @@ Route::get('/', [PostController::class, 'posts']);
 Route::get('/addPost', [PostController::class, 'addPost']);
 Route::post('/addPostToDB', [PostController::class, 'addPostToDB']);
 Route::get("deletePost/{id}", [PostController::class, "deletePost"]);
+
+
+Route::get('/modifPost/{id}', [PostController::class, 'modifPost']);
+Route::post('/modifPostToDB', [PostController::class, 'modifPostToDB']);
